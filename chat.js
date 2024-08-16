@@ -1,4 +1,43 @@
-const socket = io()
+import java.util.HashMap; // import the HashMap class
+
+HashMap<String, String> message_storage = new HashMap<String, String>();
+
+
+public class Main {
+  public static void main(String[] args) {
+    // Create a HashMap object called message_storage
+    HashMap<String, String> capitalCities = new HashMap<String, String>();
+
+    // Add keys and values (user, message)
+    message_storage.put("Martha", "Hello World");
+    message_storage.put("Gane", "I moved to Idaho");
+    message_storage.put("Normandy", "Jesus is Great");
+    message_storage.put("Alberno", "Washington DC is live, yo!");
+    System.out.println(message_storage);
+  }
+def handle_message
+
+message_storage.get("Gane");
+
+message_storage.remove("Alberno");
+socketio.on('message')
+
+// Print keys
+for (String i : message_storage.keySet()) {
+  System.out.println(i);
+}
+messages =[]
+
+
+def input_positive_integer(prompt):
+  while True:
+    input_value = int(input(prompt))
+    if input_value > 0:
+      return input_value
+
+mass = input_positive_integer("Enter the mass: ")
+acceleration = input_positive_integer("Enter the acceleration: ")
+print("The Force is", mass * accelerationconst socket = io()
 
 
 let activeUser = null;
