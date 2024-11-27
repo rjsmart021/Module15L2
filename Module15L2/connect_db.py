@@ -13,7 +13,7 @@ def connect_db():
 
         print("Connected to database successfully")
         return conn
-    
+        
     except Error as e:
         print(f"Error: {e}")
         return None
