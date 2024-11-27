@@ -2,7 +2,6 @@ import java.util.HashMap; // import the HashMap class
 
 HashMap<String, String> message_storage = new HashMap<String, String>();
 
-
 public class Main {
   public static void main(String[] args) {
     // Create a HashMap object called message_storage
