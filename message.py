@@ -2,7 +2,6 @@ from flask import Flask, render_template
 from flask_socketio import SocketIO, send, emit, join_room, leave_room
 from flask_cors import CORS
 
-
 app = Flask(__name__)
 CORS(app)
 app.config['SECRET_KEY'] = 'mad-max-fury-road'
